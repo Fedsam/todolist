@@ -1,0 +1,48 @@
+.addTaskForm {
+	padding: 1%;
+	background-color: white;
+	border-radius: 1%;
+}
+
+input,
+button {
+	border: none;
+	box-sizing: content-box;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+input {
+	flex: 1 1 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
+}
+
+input::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
+	opacity: 0.4; /* Firefox */
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	font-family: 'Roboto', sans-serif;
+}
+
+input::-ms-input-placeholder {
+	/* Microsoft Edge */
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	background-color: white;
+}
+
+button:hover {
+	cursor: pointer;
+}

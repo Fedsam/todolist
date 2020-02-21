@@ -1,0 +1,28 @@
+h1 {
+	font-family: 'Lacquer', sans-serif;
+	font-size: 10vh;
+	color: #fff200;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: 60vh;
+}
+
+.clear-btn {
+	text-align: right;
+}
+
+.clear-btn button {
+	background-color: black;
+	border-radius: 5%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
+}

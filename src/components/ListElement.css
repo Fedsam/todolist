@@ -1,0 +1,37 @@
+ul {
+	background-color: white;
+	border-radius: 1%;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 6vh;
+	overflow: hidden;
+	overflow-y: scroll;
+	max-height: 50vh;
+	scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+ul::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+ul {
+	-ms-overflow-style: none;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
+	padding: 1vh;
+	border-bottom: 1px solid black;
+}
+
+li button {
+	text-align: center;
+	padding-left: 1%;
+	padding-right: 1%;
+}
