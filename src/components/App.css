@@ -2,6 +2,7 @@ h1 {
 	font-family: 'Lacquer', sans-serif;
 	font-size: 10vh;
 	color: #fff200;
+	text-align: center;
 }
 
 .content {
@@ -25,4 +26,16 @@ h1 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 2vh;
+}
+
+@media screen and (max-width: 760px) {
+	h1 {
+		min-width: 340px;
+		font-size: 12vw;
+	}
+
+	.wrapper {
+		min-width: 340px;
+		width: 75vw;
+	}
 }

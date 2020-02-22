@@ -2,6 +2,8 @@
 
 A simple todolist using React.JS
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 Clone the repo.
