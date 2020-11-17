@@ -8,7 +8,7 @@ A simple todolist using React.JS
 
 Clone the repo.
 
-`$ git clone https://github.com/Fedsam/simple-todolist.git`
+`$ git clone https://github.com/Fedsam/todolist.git`
 
 Intall dependencies.
 
